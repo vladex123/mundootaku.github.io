@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDOOTAKU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="funcionalidad.js"></script>
+  </head>
+<body>
+    <!-- menu de navegacion-->
+    
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MUNDO OTAKU</a>
+          <!--b class="navbar-brand" href="#">MUNDO OTAKU</b-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalogo.html">catalogo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  variedad<a href="catalogo.html"></a>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">one piece</a></li>
+                  <li><a class="dropdown-item" href="#">naruto</a></li>
+                  <li><a class="dropdown-item" href="#">pokemon</a></li>
+                  <li><a class="dropdown-item" href="#">saint seiya</a></li>
+                  <li><a class="dropdown-item" href="#">shaman king</a></li>
+                  <li><a class="dropdown-item" href="#">gundam</a></li>
+                  <li><a class="dropdown-item" href="#">dragon ball</a></li>
+                  <li><a class="dropdown-item" href="#">attack on titan</a></li>
+                  <li><a class="dropdown-item" href="#">jujutsu kaisen</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">mas personajes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  "href = "#">moda</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--carusel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!--div id="carouselExampleIndicators" class="carousel slide"-->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height: 500px;">
+            <img src="imagen.png!d" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"style="max-height: 500px;">
+            <img src="imagen11.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"style="max-height: 500px;">
+            <img src="imagen2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"style="max-height: 500px;">
+            <img src="imag.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--ejempl-->
+      <div class="container-fluid bg-secondary py-3 text-center">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen1.png" class="img-fluid"width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen10.png" class="img-fluid" width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen11.png" class="img-fluid" width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen12.png" class="img-fluid" width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen2.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen3.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen4.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen5.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen6.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen7.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen8.png" class="img-fluid"  width="100" height="100"></div>
+            <div class="col-sm-6 col-md-4 col-lg-2"><img src="imagen9.png" class="img-fluid"  width="100" height="100"></div>
+        </div>
+    </div>
+<!--texto-->
+<div class="container-fluid mt-5">
+  <b><h1 class=" text-center">La tienda de anime más completa</h1></b>
+  <div class="row">
+    <div class="col">En MUNDO OTAKU sabemos lo difícil que es a veces encontrar buen merchandising de anime. artículos que te ilusionen, te hagan brillar los ojos y quieras tenerlos cuanto antes en tu estantería. O en tu armario si se trata de ropa anime.</div>
+    <div class="col">Como tienda de merchandising de anime, hacemos todo lo posible por conseguir todas las figuras, peluches, camisetas, pegatinas y complementos que harán que te definas como el mejor fan de tu anime favorito.</div>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <b><h1 class=" text-center">Descubre todas las novedades de tu anime favorito
+  </h1></b>
+  <div class="row">
+    <div class="col">Quieres saber por qué merchandising se deciden los demás? ¿Eres de los que se fían de las elecciones de los demás? ¿O prefieres eso que no se vende tanto?</div>
+    <div class="col">Incluso si estás buscando un regalo y no estás familiarizado con este mundillo, esta sección te ayudará a hacerte una idea sobre qué regalar a ese aficionado o aficionada a quien quieres sorprender.</div>
+    <div class="col">Nos gustaría compartir con todos vosotros esos momentos que nos han fascinado, lo tanto que detestamos a algunos personajes y las emocionantes batallas que esperamos que lleven del manga al anime.</div>
+    <div class="col">Lo hemos visto en las redes sociales, en eventos de Japón y en otros lugares más. ¿Pero por qué nunca llegan aquí? Por esa misma razón, en MUNDO OTAKU queremos traerte el merchandising de anime que siempre has deseado.</div>
+  </div>
+</div>
+
+      <!-- contenedor horizontal-->
+      
+  <div class="container mt-5 border-0" >
+    <div class="card mb-5">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="otaku.jpg" class="card-img-top img-fluid" style="height: 500px; object-fit: cover;" alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">ROPA Y ACCESORIOS OTAKU</h5>
+                    <p class="card-text">¡Bienvenido a Mundo OTAKU, tu destino definitivo para la moda otaku! Sumérgete en un universo de estilo único y expresión personal con nuestra exclusiva colección de ropa y accesorios inspirados en la cultura otaku. En Mundo Toaku, fusionamos la pasión por el anime, manga y la cultura japonesa con la moda contemporánea, creando prendas y complementos que te permitirán llevar tu amor por el otaku lifestyle a un nuevo nivel.
+
+                      Desde camisetas vibrantes con diseños emblemáticos de tus series favoritas hasta accesorios que capturan la esencia de los personajes más queridos, en Mundo Toaku encontrarás piezas que no solo te harán destacar, sino que también te conectarán con otros entusiastas de la cultura otaku. Nuestra tienda está dedicada a ofrecerte productos de alta calidad y estilo único, asegurando que cada compra sea una experiencia que celebre tu amor por el mundo otaku.
+                      
+                      Explora nuestro catálogo en constante expansión y descubre prendas que reflejan tu individualidad y devoción por la cultura japonesa. En Mundo Toaku, no solo vendemos ropa y accesorios, sino que también compartimos la emoción de pertenecer a una comunidad apasionada. Únete a nosotros mientras llevamos la moda otaku a nuevas alturas, donde cada prenda cuenta una historia y cada accesorio es una declaración de tu autenticidad otaku. 
+                      
+                      
+                      </p>
+                      <a href="#"class="btn btn-success btn-lg">moda</a>
+                    <p class="card-text"><small class="text-body-secondary">Última actualización hace 3 minutos</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--texto-->
+    
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="imagencarrito.jpg" class="card-img-top img-fluid " style="height: 200px; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">ENVIOS A TODO EL PERU</h5>
+                      <p class="card-text">Envíos gratis a partir de compras a partir de 200 S/. en tus productos preferidos!</p>
+                      <a href="#" class="btn btn-primary">ENVIOS</a>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4">
+              <div class="card border-0">
+                  <img src="imagenseguro1.jpg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">PAGOS SEGUROS</h5>
+                      <p class="card-text">En toda la web y con posibilidad de compras por yape. Recibes una confirmación del pedido y el número de seguimiento</p>
+                      <a href="#" class="btn btn-primary">PAGOS</a>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="imagencalidad1.avif" class="card-img-top img-fluid" style="height: 200px; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">PRODUCTOS DE CALIDAD</h5>
+                      <p class="card-text">Cuidadosamente seleccionados por nuestro equipo comercial para tener el mejor catálogo!</p>
+                      <a href="#" class="btn btn-primary">CALIDAD</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <footer class="bg-dark p-5 text-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col"><a href="#" class="text-decoration-none text-success"><i class="bi bi-globe"></i>ANIMES</a></div>
+      <div class="col"><a href="#" class="text-decoration-none text-success"><i class="bi bi-telephone"></i>CONTACTO</a></div>
+      <div class="col"><a href="#" class="text-decoration-none text-success"><i class="bi bi-facebook"></i>FACEBOOK</a></div>
+      <div class="col"><a href="#" class="text-decoration-none text-success"><i class="bi bi-instagram"></i>INSTAGRAM</a></div>
+      <div class="col"><a href="#" class="text-decoration-none text-success"><i class="bi bi-tiktok"></i>TIKTOK</a></div>
+      <div class="col"><a href="#" class="text-decoration-none text-success"><i class="bi bi-whatsapp"></i>WHATSAPP</a></div>
+
+
+    </div>
+
+  </div>
+</footer>
+
+
+
+      <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+</body>
+</html>
